@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Compiler</title>
+    <script src="https://kit.fontawesome.com/69cb9d543b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+        <div class="left">
+           <label><i class="fa-brands fa-html5"></i>HTML</label>
+           <textarea  id="html-code" onkeyup="run()"></textarea>
+           <label ><i class="fa-brands fa-css3-alt"></i>css</label>
+           <textarea id="css-code"  onkeyup="run()"></textarea>
+           <label><i class="fa-brands fa-js"></i>js</label>
+           <textarea id="js-code" onkeyup="run()"></textarea>
+
+        </div>
+        <div class="right">
+         <label><i class="fa-solid fa-play"></i>output</label>
+          <iframe id="output"></iframe>
+        </div>
+      </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
